@@ -229,11 +229,15 @@ endverbatim
 verbatim
 if get(g:, "@optionprefix_enable_func_defs", 0)
   
-  hi pythonfunction guifg=#b77fdb
-  hi rubyfunction guifg=#b77fdb
+  hi pythonfunction                     guifg=#b77fdb
+  hi rubyfunction                       guifg=#b77fdb
+  hi rustFuncName                       guifg=#b77fdb
 
-  hi luafuncname guifg=#b77fdb
-  hi jsfunctionkey guifg=#b77fdb
+  hi luafuncname                        guifg=#b77fdb
+  hi jsfunctionkey                      guifg=#b77fdb
+  hi cCustomFunc                        guifg=#b77fdb
+  hi nimFunction                        guifg=#b77fdb
+  hi elixirFunctionDeclaration          guifg=#b77fdb
 
 endif
 endverbatim
