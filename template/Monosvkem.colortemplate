@@ -48,7 +48,7 @@ Color: uiblue               #20bbfc     ~
 Color: uipurple             #bb20fc     ~   
 Color: uiamber              #fcbb20     ~   
 Color: uiblack              #303030     ~   
-Color: unnecessarilyblack   #161819     233   
+Color: unnecessarilyblack   #161819     ~   
 
 Color: errorred             #ff2040     ~   
 
@@ -229,18 +229,18 @@ endverbatim
 verbatim
 if get(g:, "@optionprefix_enable_func_defs", 0)
   
-  hi pythonfunction                     guifg=#b77fdb 
-  hi pythonDecorator                    guifg=#b77fdb cterm=bold gui=bold
-  hi pythonDecoratorName                guifg=#b77fdb cterm=bold gui=bold
-  hi rubyfunction                       guifg=#b77fdb
-  hi rustFuncName                       guifg=#b77fdb
-                                                      
-  hi pythonDottedName                   guifg=#b77fdb cterm=bold gui=bold
-  hi luafuncname                        guifg=#b77fdb 
-  hi jsfunctionkey                      guifg=#b77fdb 
-  hi cCustomFunc                        guifg=#b77fdb 
-  hi nimFunction                        guifg=#b77fdb 
-  hi elixirFunctionDeclaration          guifg=#b77fdb 
+  hi pythonfunction                     guifg=#b77fdb ctermfg=140  
+  hi pythonDecorator                    guifg=#b77fdb ctermfg=140  cterm=bold gui=bold
+  hi pythonDecoratorName                guifg=#b77fdb ctermfg=140  cterm=bold gui=bold
+  hi rubyfunction                       guifg=#b77fdb ctermfg=140  
+  hi rustFuncName                       guifg=#b77fdb ctermfg=140  
+                                                     
+  hi pythonDottedName                   guifg=#b77fdb ctermfg=140  cterm=bold gui=bold
+  hi luafuncname                        guifg=#b77fdb ctermfg=140  
+  hi jsfunctionkey                      guifg=#b77fdb ctermfg=140  
+  hi cCustomFunc                        guifg=#b77fdb ctermfg=140  
+  hi nimFunction                        guifg=#b77fdb ctermfg=140  
+  hi elixirFunctionDeclaration          guifg=#b77fdb ctermfg=140  
 
 endif
 endverbatim
