@@ -238,7 +238,6 @@ if get(g:, "@optionprefix_enable_func_defs", 0)
   hi pythonDottedName                   guifg=#b77fdb ctermfg=140  cterm=bold gui=bold
   hi luafuncname                        guifg=#b77fdb ctermfg=140  
   hi jsfunctionkey                      guifg=#b77fdb ctermfg=140  
-  hi cCustomFunc                        guifg=#b77fdb ctermfg=140  
   hi nimFunction                        guifg=#b77fdb ctermfg=140  
   hi elixirFunctionDeclaration          guifg=#b77fdb ctermfg=140  
 

@@ -4,7 +4,7 @@
 " Maintainer:   neutaaaaan
 " Website:      github.com/neutaaaaan/monosvkem
 " License:      Vim License (see `:help license`)
-" Last Updated: Sun 26 Aug 2018 02:51:18 PM CEST
+" Last Updated: Sun 26 Aug 2018 10:05:06 PM CEST
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
@@ -165,7 +165,6 @@ if get(g:, "Monosvkem_enable_func_defs", 0)
   hi pythonDottedName                   guifg=#b77fdb ctermfg=140  cterm=bold gui=bold
   hi luafuncname                        guifg=#b77fdb ctermfg=140  
   hi jsfunctionkey                      guifg=#b77fdb ctermfg=140  
-  hi cCustomFunc                        guifg=#b77fdb ctermfg=140  
   hi nimFunction                        guifg=#b77fdb ctermfg=140  
   hi elixirFunctionDeclaration          guifg=#b77fdb ctermfg=140  
 
