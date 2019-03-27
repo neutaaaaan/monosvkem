@@ -182,6 +182,7 @@ markdownLinkText     blue           none
 markdownUrl          greyblack      none
 markdownRule	     red none t=bold g=bold
 markdownId	teal none
+markdownIdDeclaration	teal none
 markdownBold	white none t=bold g=bold
 markdownItalic	white none t=italic g=italic
 markdownBoldItalic white none t=bold,italic g=bold,italic

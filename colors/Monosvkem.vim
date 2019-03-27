@@ -4,7 +4,7 @@
 " Maintainer:   neutaaaaan
 " Website:      github.com/neutaaaaan/monosvkem
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat 23 Mar 2019 01:26:05 PM CET
+" Last Updated: Wed 27 Mar 2019 04:16:07 PM CET
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < 256)
@@ -127,6 +127,7 @@ hi markdownLinkText ctermfg=74 ctermbg=NONE guifg=#57aadd guibg=NONE guisp=NONE 
 hi markdownUrl ctermfg=239 ctermbg=NONE guifg=#505050 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi markdownRule ctermfg=161 ctermbg=NONE guifg=#d02b61 guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi markdownId ctermfg=36 ctermbg=NONE guifg=#00aa80 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi markdownIdDeclaration ctermfg=36 ctermbg=NONE guifg=#00aa80 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi markdownBold ctermfg=253 ctermbg=NONE guifg=#dddddd guibg=NONE guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi markdownItalic ctermfg=253 ctermbg=NONE guifg=#dddddd guibg=NONE guisp=NONE cterm=NONE,italic gui=NONE,italic
 hi markdownBoldItalic ctermfg=253 ctermbg=NONE guifg=#dddddd guibg=NONE guisp=NONE cterm=NONE,bold,italic gui=NONE,bold,italic
@@ -308,6 +309,7 @@ finish
 " markdownUrl          greyblack      none
 " markdownRule	     red none t=bold g=bold
 " markdownId	teal none
+" markdownIdDeclaration	teal none
 " markdownBold	white none t=bold g=bold
 " markdownItalic	white none t=italic g=italic
 " markdownBoldItalic white none t=bold,italic g=bold,italic
