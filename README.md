@@ -1,3 +1,5 @@
+### Mostly abandonned, will check pull requests and but am unlikely to work on Monosvkem on my own in the future.
+
 ![image](https://i.imgur.com/lzPo0mx.png)
 
 
@@ -17,3 +19,6 @@ keep an eye out for weird stuff.
 - There's a toggle for function definitions. Right now, it barely ever does 
 anything. I need help, and not just of the medical kind. You'll find more about
 this in `doc/options.md`.
+
+
+
