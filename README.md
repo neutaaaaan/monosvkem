@@ -1,4 +1,4 @@
-### Mostly abandonned, will check pull requests and but am unlikely to work on Monosvkem on my own in the future.
+### Mostly abandonned, will check pull requests but am unlikely to work on Monosvkem on my own in the future.
 
 ![image](https://i.imgur.com/lzPo0mx.png)
 
