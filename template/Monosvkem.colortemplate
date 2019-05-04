@@ -26,7 +26,7 @@ Color: black                #1b1d1e     ~
 Color: greyblack            #505050     ~   
 Color: brightblack          #808080     ~   
 
-Color: white                #dddddd     ~   
+Color: white                #d4d6d7     ~   
 Color: brightwhite          #ffffff     ~   
 
 Color: red                  #d02b61     ~   
@@ -197,6 +197,11 @@ rstInterpretedTextOrHyperlinkReference purple none
 rstStandAloneHyperlink blue none
 rstHyperlinktarget blue none
 rstCitationReference teal none
+
+diffFile greyblue none
+diffAdded teal none
+diffRemoved red none
+diffLine purple none
 # }}}
 
 # Terminal colors {{{
