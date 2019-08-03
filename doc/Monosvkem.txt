@@ -1,0 +1,32 @@
+*Monosvkem.txt*	For Vim version 8.1	Last change: 2019 Aug 03
+
+
+		  Monosvkem color scheme    by neutaaaaan
+
+Monosvkem, a color scheme with a unique touch.
+
+==============================================================================
+Color scheme options					Monosvkem-options*
+
+						*g:Monosvkem_transp_bg*
+Set to 1 if you want a transparent background. Takes effect only in the
+terminal.
+>
+	let g:Monosvkem_transp_bg = 0
+<
+						*g:Monosvkem_disable_italic*
+Set to 1 if you want to disable italicized characters. Potentially useful if
+you can't get your environment to behave, but recommended against. Takes
+effect only in the terminal.
+>
+	let g:Monosvkem_disable_italic = 1
+<
+						*g=Monosvkem_enable_func_defs*
+Set to 1 to highlight function definitions. It is as of now very lacking, and
+will not include ambiguous or repetitive elements, as to not dilute its
+purpose.
+>
+	let g:Monosvkem_enable_func_defs = 1
+<
+ vim:tw=78:ts=8:noet:ft=help:norl:
+
