@@ -228,7 +228,7 @@ if get(g:, "@optionprefix_enable_func_defs", 0)
                                                      
   hi pythonDottedName                  guifg=@purple ctermfg=@purple  cterm=bold gui=bold
   hi luafuncname                       guifg=@purple ctermfg=@purple  
-  hi jsfunctionkey                     guifg=@purple ctermfg=@purple  
+  hi jsFuncName                        guifg=@purple ctermfg=@purple  
   hi nimFunction                       guifg=@purple ctermfg=@purple  
   hi elixirFunctionDeclaration         guifg=@purple ctermfg=@purple  
 
@@ -417,7 +417,7 @@ if get(g:, "@optionprefix_enable_func_defs", 0)
                                                      
   hi pythonDottedName                  guifg=@purple ctermfg=@purple  cterm=bold gui=bold
   hi luafuncname                       guifg=@purple ctermfg=@purple  
-  hi jsfunctionkey                     guifg=@purple ctermfg=@purple  
+  hi jsFuncName                        guifg=@purple ctermfg=@purple  
   hi nimFunction                       guifg=@purple ctermfg=@purple  
   hi elixirFunctionDeclaration         guifg=@purple ctermfg=@purple  
 
