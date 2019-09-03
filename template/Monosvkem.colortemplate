@@ -216,26 +216,6 @@ endif
 endverbatim
 # }}}
 
-# Function definition nonsense {{{
-verbatim
-if get(g:, "@optionprefix_enable_func_defs", 0)
-  
-  hi pythonfunction                    guifg=@purple ctermfg=@purple  
-  hi pythonDecorator                   guifg=@purple ctermfg=@purple  cterm=bold gui=bold
-  hi pythonDecoratorName               guifg=@purple ctermfg=@purple  cterm=bold gui=bold
-  hi rubyfunction                      guifg=@purple ctermfg=@purple  
-  hi rustFuncName                      guifg=@purple ctermfg=@purple  
-                                                     
-  hi pythonDottedName                  guifg=@purple ctermfg=@purple  cterm=bold gui=bold
-  hi luafuncname                       guifg=@purple ctermfg=@purple  
-  hi jsFuncName                        guifg=@purple ctermfg=@purple  
-  hi nimFunction                       guifg=@purple ctermfg=@purple  
-  hi elixirFunctionDeclaration         guifg=@purple ctermfg=@purple  
-
-endif
-endverbatim
-# }}}
-
 Background: light
 
 # Color palette for light variant {{{
@@ -401,26 +381,6 @@ verbatim
 if get(g:, "@optionprefix_disable_italic", 0)
   hi Folded cterm=NONE
   hi rstEmphasis cterm=NONE
-endif
-endverbatim
-# }}}
-
-# Function definition nonsense {{{
-verbatim
-if get(g:, "@optionprefix_enable_func_defs", 0)
-  
-  hi pythonfunction                    guifg=@purple ctermfg=@purple  
-  hi pythonDecorator                   guifg=@purple ctermfg=@purple  cterm=bold gui=bold
-  hi pythonDecoratorName               guifg=@purple ctermfg=@purple  cterm=bold gui=bold
-  hi rubyfunction                      guifg=@purple ctermfg=@purple  
-  hi rustFuncName                      guifg=@purple ctermfg=@purple  
-                                                     
-  hi pythonDottedName                  guifg=@purple ctermfg=@purple  cterm=bold gui=bold
-  hi luafuncname                       guifg=@purple ctermfg=@purple  
-  hi jsFuncName                        guifg=@purple ctermfg=@purple  
-  hi nimFunction                       guifg=@purple ctermfg=@purple  
-  hi elixirFunctionDeclaration         guifg=@purple ctermfg=@purple  
-
 endif
 endverbatim
 # }}}
