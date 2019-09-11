@@ -82,7 +82,7 @@ Color: uiamber              #fcbb20                ~
 Color: uiblack              #303030                ~          
 Color: vantablack           #161819               233         
 
-Color: errorred             #ff2040                ~          
+Color: errorred             #ff2040               197
 # You may use hexadecimal values, too, and you may provide an explicit base-256 color:
 # }}}
 
@@ -221,9 +221,7 @@ Background: light
 # Color palette for light variant {{{
 # Color name                GUI                  Base256    Base16 (optional)
 Color: black                #1b1d1e                ~   
-Color: greyblack            #505050                ~   
 Color: brightblack          #606060                ~   
-Color: darkergrey           #303030                ~   
 
 Color: white                #d4d6d7                ~   
 Color: brightwhite          #e6e8e9                ~   
@@ -252,7 +250,7 @@ Color: uiblack              #303030                ~
 Color: invisigrey           #a0a0a0                ~   
 Color: commentgrey          #bbbbbb                ~   
 
-Color: errorred             #ff2040                ~   
+Color: errorred             #ff2040               197
 # You may use hexadecimal values, too, and you may provide an explicit base-256 color:
 # }}}
 
@@ -298,7 +296,7 @@ MoreMsg              black             white
 NonText              black             white
 Pmenu                black             brightwhite
 PmenuSbar            black             white
-PmenuSel             brightwhite       brightblack       bold
+PmenuSel             brightwhite       uiblack           bold
 PmenuThumb           black             white
 Question             black             white
 Search               uiblue            black             reverse
@@ -308,12 +306,12 @@ SpellBad             uipink            white             underline
 SpellCap             uiblue            white             underline
 SpellLocal           uipurple          white             underline
 SpellRare            uiteal            white             underline
-StatusLine           brightwhite       greyblack
-StatusLineNC         greyblack         brightwhite
+StatusLine           brightwhite       uiblack
+StatusLineNC         uiblack           brightwhite
 String               monoblue          white
 TabLine              black             brightwhite
 TabLineFill          black             brightwhite
-TabLineSel           brightwhite       greyblack         bold
+TabLineSel           brightwhite       uiblack           bold
 Title                black             white
 VertSplit            brightwhite       white
 Visual               none              brightwhite
@@ -341,12 +339,12 @@ ToolbarButton        black             white             bold
 
 # Additional highlight groups {{{
 # Add additional highlight groups here if you want
-markdownH1           darkergrey        none              bold
-markdownH2           darkergrey        none              bold
-markdownH3           darkergrey        none              bold
-markdownH4           darkergrey        none              bold
-markdownH5           darkergrey        none              bold
-markdownH6           darkergrey        none              bold
+markdownH1           black             none              bold
+markdownH2           black             none              bold
+markdownH3           black             none              bold
+markdownH4           black             none              bold
+markdownH5           black             none              bold
+markdownH6           black             none              bold
 markdownLinkTextDelimiter     red      none
 markdownLinkDelimiter         red      none
 markdownListMarker   purple            none              bold
