@@ -20,7 +20,7 @@ Directory            omit   omit
 EndOfBuffer          omit   omit
 ErrorMsg             omit   omit    bold,reverse,italic
 FoldColumn           omit   omit    reverse
-Folded               omit   omit    italic,underline
+Folded               omit   omit    italic
 IncSearch            omit   omit    reverse,bold,italic
 LineNr               omit   omit
 MatchParen           omit   omit    bold,underline
@@ -39,8 +39,8 @@ SpellBad             omit   omit    underline,italic
 SpellCap             omit   omit    underline,italic
 SpellLocal           omit   omit    underline,italic
 SpellRare            omit   omit    underline,italic
-StatusLine           omit   omit    bold
-StatusLineNC         omit   omit    reverse
+StatusLine           omit   omit    reverse,bold
+StatusLineNC         omit   omit    underline
 TabLine              omit   omit    
 TabLineFill          omit   omit
 TabLineSel           omit   omit    bold
