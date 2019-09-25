@@ -123,7 +123,7 @@ Folded               white             black             italic
 IncSearch            uiamber           black             reverse
 LineNr               greyblack         black
 MatchParen           uipink            black             bold
-ModeMsg              white             black
+ModeMsg              white             black             bold
 MoreMsg              white             black
 NonText              white             black
 Pmenu                white             uiblack
@@ -138,7 +138,7 @@ SpellBad             uipink            black             underline
 SpellCap             uiblue            black             underline
 SpellLocal           uipurple          black             underline
 SpellRare            uiteal            black             underline
-StatusLine           white             uiblack
+StatusLine           white             uiblack           bold
 StatusLineNC         greyblack         vantablack
 TabLine              white             uiblack
 String               monoblue          black
@@ -227,13 +227,12 @@ Color: white                #d4d6d7                ~
 Color: brightwhite          #e6e8e9                ~   
 
 Color: red                  #aa053b                ~   
-Color: green                #2d7700                ~   
+Color: green                #107040                ~   
 Color: yellow               #9d5600                ~   
-Color: monoblue             #0056b7                ~
-Color: blue                 #1f51cb                ~   
+Color: blue                 #0056b7                ~
 Color: purple               #771f9b                ~   
 Color: greyblue             #4040aa                ~   
-Color: teal                 #00846a                ~   
+Color: cyan                 #2080dd                ~   
 
 Color: diffred              #d49697                ~   
 Color: diffgreen            #94d697                ~   
@@ -255,8 +254,8 @@ Color: errorred             #ff2040               197
 # }}}
 
 # Terminal colors for light variant {{{
-Term colors: black red green yellow blue purple teal white
-Term colors: brightblack red green yellow blue purple teal brightwhite
+Term colors: black red green yellow blue purple cyan white
+Term colors: brightblack red green yellow blue purple cyan brightwhite
 # }}}
 
 # Definitions common to all variants {{{
@@ -291,7 +290,7 @@ Folded               black             white             italic
 IncSearch            uiamber           black             reverse
 LineNr               invisigrey        white
 MatchParen           uipink            white             bold
-ModeMsg              black             white
+ModeMsg              black             white             bold
 MoreMsg              black             white
 NonText              black             white
 Pmenu                black             brightwhite
@@ -306,14 +305,14 @@ SpellBad             uipink            white             underline
 SpellCap             uiblue            white             underline
 SpellLocal           uipurple          white             underline
 SpellRare            uiteal            white             underline
-StatusLine           brightwhite       uiblack
+StatusLine           brightwhite       uiblack           bold
 StatusLineNC         uiblack           brightwhite
-String               monoblue          white
+String               blue              white
 TabLine              black             brightwhite
 TabLineFill          black             brightwhite
 TabLineSel           brightwhite       uiblack           bold
 Title                black             white
-VertSplit            brightwhite       white
+VertSplit            brightblack       white
 Visual               none              brightwhite
 VisualNOS            none              brightwhite
 WarningMsg           black             white
@@ -348,11 +347,11 @@ markdownH6           black             none              bold
 markdownLinkTextDelimiter     red      none
 markdownLinkDelimiter         red      none
 markdownListMarker   purple            none              bold
-markdownLinkText     monoblue          none
+markdownLinkText     blue              none
 markdownUrl          invisigrey        none
 markdownRule	       red               none              bold
-markdownId	         teal              none
-markdownIdDeclaration	        teal     none
+markdownId	         green             none
+markdownIdDeclaration	        green    none
 markdownBold	       black             none              bold
 markdownItalic	     black             none              italic
 markdownBoldItalic   black             none              bold,italic
@@ -364,9 +363,9 @@ rstSections          black	           none              bold
 rstEmphasis          black             none              italic
 rstStrongEmphasis    black             none              bold
 rstInterpretedTextOrHyperlinkReference purple   none
-rstStandAloneHyperlink        monoblue none
-rstHyperlinktarget   monoblue          none
-rstCitationReference teal              none
+rstStandAloneHyperlink        blue     none
+rstHyperlinktarget   blue              none
+rstCitationReference green             none
 
 diffFile             black             none              bold
 diffAdded            black             diffgreen
