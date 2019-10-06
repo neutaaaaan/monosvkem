@@ -47,6 +47,9 @@ Tag                  -> Special
 Typedef              -> Type
 # See `:help lCursor`
 lCursor              -> Cursor
+# Custom
+debugBreakpoint      -> Statement
+debugPC              -> CursorLine
 # }}}
 
 Background: dark
@@ -54,6 +57,7 @@ Background: dark
 # Color palette for dark variant {{{
 # Color name                GUI                  Base256    Base16 (optional)
 Color: black                #1b1d1e                ~          
+Color: linenrblack          #404040                ~          
 Color: greyblack            #505050                ~          
 Color: brightblack          #707070                ~          
 
@@ -121,7 +125,7 @@ ErrorMsg             white             black             reverse
 FoldColumn           white             vantablack
 Folded               white             black             italic
 IncSearch            uiamber           black             reverse
-LineNr               greyblack         black
+LineNr               linenrblack       black
 MatchParen           uipink            black             bold
 ModeMsg              white             black             bold
 MoreMsg              white             black
@@ -183,8 +187,8 @@ markdownListMarker   purple            none              bold
 markdownLinkText     monoblue          none
 markdownUrl          greyblack         none
 markdownRule	       red               none              bold
-markdownId	         teal              none
-markdownIdDeclaration	        teal     none
+markdownId	         green             none
+markdownIdDeclaration	        green    none
 markdownBold	       white             none              bold
 markdownItalic	     white             none              italic
 markdownBoldItalic   white             none              bold,italic
@@ -206,15 +210,6 @@ diffRemoved          red               none
 diffLine             purple            none
 # }}}
 
-# Italics {{{
-verbatim
-if get(g:, "@optionprefix_disable_italic", 0)
-  hi Comment cterm=NONE
-  hi Folded cterm=NONE
-  hi rstEmphasis cterm=NONE
-endif
-endverbatim
-# }}}
 
 Background: light
 
