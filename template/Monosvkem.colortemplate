@@ -35,7 +35,8 @@ Keyword              -> Statement
 Label                -> Statement
 Macro                -> PreProc
 Number               -> Constant
-Operator             -> Statement
+# Operator             -> Statement
+Operator             -> Normal
 PreCondit            -> PreProc
 Repeat               -> Statement
 SpecialChar          -> Special

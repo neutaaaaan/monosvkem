@@ -1,4 +1,4 @@
-![image](https://i.imgur.com/v3dr8wr.png) ![image](https://i.imgur.com/amWsWJb.png)
+![image](https://i.imgur.com/lVXdizQ.png) ![image](https://i.imgur.com/zv8pcE8.png)
 
 **Monosvkem** trades the all too common angry fruit salad for the subtle hues
 of the goopy mess stuck at the bottom of the cement mixer.
@@ -9,7 +9,3 @@ linked to the`special` group.
 It used to be a dirty hack of
 [Iosvkem](https://www.github.com/neutaaaaan/iosvkem) but it has since been
 rewritten from scratch to support both dark and light backgrounds.  
-Ansi colours are not supported. Ansi colours will not be supported.  
-We're in 2019.
-Get with the times and fix your tmux config files.
-
