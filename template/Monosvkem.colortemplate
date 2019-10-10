@@ -35,8 +35,7 @@ Keyword              -> Statement
 Label                -> Statement
 Macro                -> PreProc
 Number               -> Constant
-# Operator             -> Statement
-Operator             -> Normal
+Operator             -> Statement
 PreCondit            -> PreProc
 Repeat               -> Statement
 SpecialChar          -> Special
@@ -49,7 +48,7 @@ Typedef              -> Type
 # See `:help lCursor`
 lCursor              -> Cursor
 # Custom
-debugBreakpoint      -> Statement
+debugBreakpoint      -> ModeMsg
 debugPC              -> CursorLine
 # }}}
 
@@ -163,7 +162,7 @@ Identifier           white             none
 Ignore               white             none
 PreProc              white             none
 Special              red               none
-Statement            white             none              bold
+Statement            white             none
 Todo                 uiteal            none              reverse,bold
 Type                 white             none
 Underlined           white             none              underline
@@ -321,7 +320,7 @@ Identifier           black             none
 Ignore               black             none
 PreProc              black             none
 Special              red               none
-Statement            black             none              bold
+Statement            black             none
 Todo                 uiteal            black             reverse,bold
 Type                 black             none
 Underlined           black             none              underline
