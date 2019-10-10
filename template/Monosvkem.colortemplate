@@ -368,15 +368,6 @@ diffRemoved          black             diffred
 diffLine             black             diffblue
 # }}}
 
-# Italics {{{
-verbatim
-if get(g:, "@optionprefix_disable_italic", 0)
-  hi Folded cterm=NONE
-  hi rstEmphasis cterm=NONE
-endif
-endverbatim
-# }}}
-
 Background: any
 Include: _bw_neutaaaaan.colortemplate
 
