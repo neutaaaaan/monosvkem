@@ -76,6 +76,7 @@ Color: teal                 #00aa80                ~
 Color: diffred              #cc4040                ~          
 Color: diffgreen            #40bb40                ~          
 Color: diffblue             #80aacc                ~          
+Color: diffpink 	          #d496d7                ~
                                                                 
 Color: uipink               #fc20bb                ~          
 Color: uilime               #bbfc20                ~          
@@ -118,7 +119,7 @@ CursorLineNr         uiblue            black
 DiffAdd              diffgreen         black             reverse
 DiffChange           diffblue          black             reverse
 DiffDelete           diffred           black             reverse
-DiffText             white             black             reverse
+DiffText             diffpink          black             reverse
 Directory            white             black
 EndOfBuffer          white             black
 ErrorMsg             white             black             reverse
@@ -130,9 +131,9 @@ MatchParen           uipink            black             bold
 ModeMsg              white             black             bold
 MoreMsg              white             black
 NonText              white             black
-Pmenu                white             uiblack
+Pmenu                black             diffblue
 PmenuSbar            white             black
-PmenuSel             uipink            uiblack           bold
+PmenuSel             black             diffpink
 PmenuThumb           white             black
 Question             white             black
 Search               uiblue            black             reverse
@@ -288,9 +289,9 @@ MatchParen           uipink            white             bold
 ModeMsg              black             white             bold
 MoreMsg              black             white
 NonText              black             white
-Pmenu                black             brightwhite
+Pmenu                black             diffblue
 PmenuSbar            black             white
-PmenuSel             brightwhite       uiblack           bold
+PmenuSel             black             diffpink
 PmenuThumb           black             white
 Question             black             white
 Search               uiblue            black             reverse
