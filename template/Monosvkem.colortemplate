@@ -184,12 +184,12 @@ markdownH5           white             none              bold
 markdownH6           white             none              bold
 markdownLinkTextDelimiter     red      none
 markdownLinkDelimiter         red      none
-markdownListMarker   purple            none              bold
+markdownListMarker   red               none              bold
 markdownLinkText     monoblue          none
 markdownUrl          greyblack         none
 markdownRule	       red               none              bold
-markdownId	         green             none
-markdownIdDeclaration	        green    none
+markdownId	         purple            none
+markdownIdDeclaration	        purple   none
 markdownBold	       white             none              bold
 markdownItalic	     white             none              italic
 markdownBoldItalic   white             none              bold,italic
@@ -342,12 +342,12 @@ markdownH5           black             none              bold
 markdownH6           black             none              bold
 markdownLinkTextDelimiter     red      none
 markdownLinkDelimiter         red      none
-markdownListMarker   purple            none              bold
+markdownListMarker   red               none              bold
 markdownLinkText     blue              none
 markdownUrl          invisigrey        none
 markdownRule	       red               none              bold
-markdownId	         green             none
-markdownIdDeclaration	        green    none
+markdownId	         purple            none
+markdownIdDeclaration	        purple   none
 markdownBold	       black             none              bold
 markdownItalic	     black             none              italic
 markdownBoldItalic   black             none              bold,italic
