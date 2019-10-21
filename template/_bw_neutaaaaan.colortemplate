@@ -51,7 +51,7 @@ VisualNOS            omit   omit
 WarningMsg           omit   omit    standout
 WildMenu             omit   omit    bold
 # Other conventional group names (see `:help group-name`)
-Comment              omit   omit    italic
+Comment              omit   omit    bold
 Constant             omit   omit
 Error                omit   omit    reverse,bold
 Identifier           omit   omit
