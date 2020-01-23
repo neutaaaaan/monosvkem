@@ -216,11 +216,11 @@ Background: light
 
 # Color palette for light variant {{{
 # Color name                GUI                  Base256    Base16 (optional)
-Color: black                #1b1d1e                ~   
+Color: black                #121212                ~   
 Color: brightblack          #606060                ~   
 
-Color: white                #d4d6d7                ~   
-Color: brightwhite          #e6e8e9                ~   
+Color: white                #d7d7d7                ~   
+Color: brightwhite          #eeeeee                ~   
 
 Color: red                  #aa053b                ~   
 Color: green                #107040                ~   
