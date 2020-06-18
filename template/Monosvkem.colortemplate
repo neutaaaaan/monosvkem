@@ -123,8 +123,8 @@ DiffText             diffpink          black             reverse
 Directory            white             black
 EndOfBuffer          white             black
 ErrorMsg             white             black             reverse
-FoldColumn           white             vantablack
-Folded               white             black             italic
+FoldColumn           brightblack       black
+Folded               brightblack       black             italic
 IncSearch            uiamber           black             reverse
 LineNr               linenrblack       black
 MatchParen           uipink            black             bold
@@ -281,8 +281,8 @@ DiffText             diffpink          black             reverse
 Directory            black             white
 EndOfBuffer          black             white
 ErrorMsg             black             white             reverse
-FoldColumn           black             commentgrey
-Folded               black             white             italic
+FoldColumn           brightblack       white
+Folded               brightblack       white             italic
 IncSearch            uiamber           black             reverse
 LineNr               invisigrey        white
 MatchParen           uipink            white             bold
