@@ -56,7 +56,7 @@ Background: dark
 
 # Color palette for dark variant {{{
 # Color name                GUI                  Base256    Base16 (optional)
-Color: black                #121212                ~
+Color: black                #080808                ~
 Color: linenrblack          #404040                ~          
 Color: greyblack            #505050                ~          
 Color: brightblack          #707070                ~          
@@ -216,7 +216,7 @@ Background: light
 
 # Color palette for light variant {{{
 # Color name                GUI                  Base256    Base16 (optional)
-Color: black                #121212                ~   
+Color: black                #080808                ~   
 Color: brightblack          #606060                ~   
 
 Color: white                #d7d7d7                ~   
