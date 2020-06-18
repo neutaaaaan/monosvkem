@@ -241,7 +241,6 @@ Color: uiteal               #20fcbb                ~
 Color: uiblue               #20bbfc                ~   
 Color: uipurple             #bb20fc                ~   
 Color: uiamber              #fcbb20                ~   
-Color: uiblack              #303030                ~   
 Color: invisigrey           #a0a0a0                ~   
 Color: commentgrey          #bbbbbb                ~   
 
@@ -301,12 +300,12 @@ SpellBad             uipink            white             underline
 SpellCap             uiblue            white             underline
 SpellLocal           uipurple          white             underline
 SpellRare            uiteal            white             underline
-StatusLine           brightwhite       uiblack           bold
-StatusLineNC         uiblack           brightwhite
+StatusLine           brightwhite       black             bold
+StatusLineNC         black             brightwhite
 String               blue              white
 TabLine              black             brightwhite
 TabLineFill          black             brightwhite
-TabLineSel           brightwhite       uiblack           bold
+TabLineSel           brightwhite       black             bold
 Title                black             white
 VertSplit            brightblack       white
 Visual               none              brightwhite
