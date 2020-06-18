@@ -132,9 +132,9 @@ ModeMsg              white             black             bold
 MoreMsg              white             black
 NonText              brightblack       black
 Pmenu                black             diffblue
-PmenuSbar            white             black
+PmenuSbar            white             brightblack
 PmenuSel             black             diffpink
-PmenuThumb           white             black
+PmenuThumb           white             diffpink
 Question             white             black
 Search               uiblue            black             reverse
 SignColumn           white             vantablack
@@ -290,9 +290,9 @@ ModeMsg              black             white             bold
 MoreMsg              black             white
 NonText              brightblack       white
 Pmenu                black             diffblue
-PmenuSbar            black             white
+PmenuSbar            black             brightblack
 PmenuSel             black             diffpink
-PmenuThumb           black             white
+PmenuThumb           black             diffpink
 Question             black             white
 Search               uiblue            black             reverse
 SignColumn           black             white
