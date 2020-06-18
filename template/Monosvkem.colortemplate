@@ -144,10 +144,10 @@ SpellLocal           uipurple          black             underline
 SpellRare            uiteal            black             underline
 StatusLine           white             uiblack           bold
 StatusLineNC         brightblack       black             underline
-TabLine              white             uiblack
 String               greyblue          black
+TabLine              white             uiblack
 TabLineFill          white             uiblack
-TabLineSel           white             brightblack
+TabLineSel           white             black             bold
 Title                white             black
 VertSplit            brightblack       black
 Visual               none              uiblack
