@@ -58,7 +58,6 @@ Background: dark
 # Color name                GUI                  Base256    Base16 (optional)
 Color: black                #080808                ~
 Color: linenrblack          #404040                ~          
-Color: greyblack            #505050                ~          
 Color: brightblack          #707070                ~          
 
 Color: white                #dddddd                ~          
@@ -85,7 +84,7 @@ Color: uiblue               #20bbfc                ~
 Color: uipurple             #bb20fc                ~          
 Color: uiamber              #fcbb20                ~          
 Color: uiblack              #303030                ~          
-Color: vantablack           #080808                ~
+Color: yasogrey             #1c1c1c                ~
 
 Color: errorred             #ff2040               197
 # You may use hexadecimal values, too, and you may provide an explicit base-256 color:
@@ -110,7 +109,7 @@ Variant: gui 256
 #endif
 
 # Group              Foreground        Background        Attributes
-ColorColumn          none              vantablack
+ColorColumn          none              yasogrey
 Conceal              none              none
 Cursor               none              none              reverse
 CursorColumn         none              uiblack
@@ -137,20 +136,20 @@ PmenuSel             black             diffpink
 PmenuThumb           white             diffpink
 Question             white             black
 Search               uiblue            black             reverse
-SignColumn           white             vantablack
+SignColumn           white             black
 SpecialKey           white             black
 SpellBad             uipink            black             underline
 SpellCap             uiblue            black             underline
 SpellLocal           uipurple          black             underline
 SpellRare            uiteal            black             underline
 StatusLine           white             uiblack           bold
-StatusLineNC         greyblack         vantablack
+StatusLineNC         brightblack       black             underline
 TabLine              white             uiblack
 String               greyblue          black
 TabLineFill          white             uiblack
-TabLineSel           white             greyblack
+TabLineSel           white             brightblack
 Title                white             black
-VertSplit            greyblack         black
+VertSplit            brightblack       black
 Visual               none              uiblack
 VisualNOS            none              uiblack
 WarningMsg           white             black
@@ -186,7 +185,7 @@ markdownLinkTextDelimiter     red      none
 markdownLinkDelimiter         red      none
 markdownListMarker   red               none              bold
 markdownLinkText     monoblue          none
-markdownUrl          greyblack         none
+markdownUrl          brightblack       none
 markdownRule	       red               none              bold
 markdownId	         purple            none
 markdownIdDeclaration	        purple   none
@@ -343,7 +342,7 @@ markdownLinkTextDelimiter     red      none
 markdownLinkDelimiter         red      none
 markdownListMarker   red               none              bold
 markdownLinkText     blue              none
-markdownUrl          invisigrey        none
+markdownUrl          brightblack       none
 markdownRule	       red               none              bold
 markdownId	         purple            none
 markdownIdDeclaration	        purple   none
