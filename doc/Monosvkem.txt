@@ -1,4 +1,4 @@
-*Monosvkem.txt*	For Vim version 8.2	Last change: 2020 Jun 18
+*Monosvkem.txt*	For Vim version 8.2	Last change: 2021 Mar 26
 
 
 		  Monosvkem color scheme    by neutaaaaan
