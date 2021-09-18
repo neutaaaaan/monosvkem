@@ -155,7 +155,7 @@ VisualNOS            none              uiblack
 WarningMsg           white             black
 WildMenu             uiblue            uiblack           bold
 ; Other conventional group names (see `:help group-name`)
-Comment              brightblack       none              italic
+Comment              brightblack       black             bold
 Constant             white             none
 Error                errorred          black             reverse,bold
 Identifier           white             none
@@ -312,7 +312,7 @@ VisualNOS            none              brightwhite
 WarningMsg           black             white
 WildMenu             black             brightwhite       bold
 ; Other conventional group names (see `:help group-name`)
-Comment              commentgrey       black             reverse
+Comment              black             white              bold
 Constant             black             none
 Error                errorred          black             reverse,bold
 Identifier           black             none
