@@ -1,4 +1,4 @@
-![image](https://i.ibb.co/wdCTdXs/dark.png) ![image](https://i.ibb.co/7ypz18Z/light.png)
+![image](https://i.ibb.co/wdCTdXs/dark.png) ![image](https://i.ibb.co/SvK78n8/light.png)
 
 **Monosvkem** trades the all too common angry fruit salad for the subtle hues
 of the goopy mess stuck at the bottom of the cement mixer.
