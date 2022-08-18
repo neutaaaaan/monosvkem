@@ -1,6 +1,6 @@
 # Deprecated
 
-**Monosvkem** has been deprecated in favour of [**quiet**](https://github.com/vim/colorschemes/blob/master/colors/quiet.vim) which was included with `vim9` as part of a runtime update shipped alongside `patch 9.0.0130`.  
+**Monosvkem** has been deprecated in favour of [**quiet**](https://github.com/vim/colorschemes/blob/master/colors/quiet.vim) which was included in `vim9` as part of a runtime update shipped alongside `patch 9.0.0130`.  
 **quiet** was built as a neutral platform users could easily add their own tweaks to using autocommands. Unlike **Monosvkem** it is entirely 256colors-safe.  
 
 As both colorschemes share a common core, it should be relatively painless to add your own tweaks in your `.vimrc`, as shown below:
